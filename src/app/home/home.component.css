@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+}
+
+mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+mat-header-row {
+  width: 100%;
+}
+
+mat-row {
+  width: 100%
+}
+
+
+.main-body {
+  max-width: 100%;
+  padding: 30px;
+  flex-direction: column;
+  color: black;
+
+}

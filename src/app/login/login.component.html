@@ -1,0 +1,38 @@
+<div class="main-div">
+
+  <mat-card>
+    <mat-card-header>
+      <h1>Login</h1>
+    </mat-card-header>
+    <mat-card-content>
+      <form class="example-form" [formGroup]="loginForm" (ngSubmit)="login()">
+
+        <mat-form-field appearance="outline">
+          <mat-label>Username</mat-label>
+          <input matInput placeholder="Username" formControlName="userName">
+          <mat-error *ngIf="loginForm.get('userName').invalid && loginForm.get('userName').touched">
+      <span *ngIf="loginForm.get('userName').errors.required">
+        Name is required.
+      </span>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="Password" type="password" formControlName="userPassword">
+          <mat-error *ngIf="loginForm.get('userPassword').invalid && loginForm.get('userPassword').touched">
+      <span *ngIf="loginForm.get('userPassword').errors.required">
+        Password is required
+      </span>
+          </mat-error>
+        </mat-form-field>
+
+        <button mat-flat-button color="primary" style="margin-right: 10px">Login</button>
+      </form>
+    </mat-card-content>
+
+  </mat-card>
+
+</div>
+
+

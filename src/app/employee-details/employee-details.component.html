@@ -1,0 +1,44 @@
+<div class="container">
+  <div mat-dialog-title>
+    <h1>Employee Details</h1>
+  </div>
+
+  <div class="dialog-content-container">
+    <div mat-dialog-content>
+
+      <h4>Name : {{employeeDetails.empName}}</h4>
+      <h4>Designation : {{employeeDetails.designation}}</h4>
+      <h4>Email : {{employeeDetails.email}}</h4>
+      <h4>Phone number : {{employeeDetails.phoneNumber}}</h4>
+      <h4>Join Date : {{employeeDetails.joinDate}}</h4>
+      <h2>Skill </h2>
+      <mat-chip-list aria-label="Skill">
+        <div *ngFor="let employeeSkill of employeeDetails.skillInfo">
+          <mat-chip [ngClass]="'my-chip'" >{{employeeSkill.skillName}} ({{employeeSkill.skillRating}}*)</mat-chip>
+        </div>
+      </mat-chip-list>
+
+      <h2>Education</h2>
+      <div *ngFor="let employeeEducation of employeeDetails.eductionInfo">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              {{employeeEducation.courseName}}
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <h4>Institute Name : {{employeeEducation.instituteName}}</h4>
+          <h4>Completed : {{employeeEducation.completedYear | date}}</h4>
+        </mat-expansion-panel>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div mat-dialog-actions class="col-12 d-flex justify-content-end">
+    <button mat-flat-button type="button" (click)="closeDialog()">Close</button>
+  </div>
+
+
+</div>

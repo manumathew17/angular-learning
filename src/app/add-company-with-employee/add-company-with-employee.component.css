@@ -1,0 +1,38 @@
+
+.row-inbox {
+  display: flex;
+  gap: 10px;
+}
+
+.form-container {
+  height: 75%;
+  width: 70%;
+  overflow-y: auto;
+}
+
+.content {
+  padding: 50px;
+  width: 70%;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.spacer-vertical {
+  height: 30px;
+}
+
+.spacer-horizontal {
+  width: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,207 @@
+<div class="container">
+
+  <form [formGroup]="companyForm">
+
+    <div mat-card-content class="content">
+      <h1>Add new company</h1>
+      <h4>Insert the details and save</h4>
+      <mat-form-field appearance="outline">
+        <mat-label>Company name</mat-label>
+        <input matInput placeholder="Company name" formControlName="companyName" maxlength="50">
+        <mat-error
+          *ngIf="companyForm.controls.companyName.invalid">{{getNameError(companyForm.controls.companyName)}}</mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Company Address</mat-label>
+        <textarea matInput placeholder="Ex. 100 Main St" rows="4" formControlName="companyAddress"></textarea>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" placeholder="abc@gmail.com" formControlName="email" maxlength="100">
+        <mat-error
+          *ngIf="companyForm.controls.email.invalid">{{getEmailErrorMessage(companyForm.controls.email)}}</mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Phone number</mat-label>
+        <input matInput placeholder="Phone number" maxlength="15" formControlName="phoneNumber">
+        <mat-error
+          *ngIf="companyForm.controls.phoneNumber.invalid">{{getPhoneErrorMessage(companyForm.controls.phoneNumber)}}</mat-error>
+      </mat-form-field>
+
+
+      <div formArrayName="empInfo">
+        <div *ngFor="let employee of employee.controls; let employeeIndex=index">
+          <div [formGroupName]="employeeIndex">
+            <h3>Basics</h3>
+            <mat-form-field appearance="outline">
+              <mat-label>Employee name</mat-label>
+              <input matInput placeholder="Employee name" formControlName="empName" maxlength="50">
+              <mat-error
+                *ngIf="employee.get('empName').invalid">{{getNameError(employee.get('empName'))}}</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+              <mat-label>Email</mat-label>
+              <input matInput type="email" placeholder="abc@gmail.com" formControlName="email" maxlength="100">
+              <mat-error
+                *ngIf="employee.get('email').invalid">{{getEmailErrorMessage(employee.get('email'))}}</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+              <mat-label>Phone number</mat-label>
+              <input matInput placeholder="Phone number" maxlength="15" formControlName="phoneNumber">
+              <mat-error
+                *ngIf="employee.get('phoneNumber').invalid">{{getPhoneErrorMessage(employee.get('phoneNumber'))}}</mat-error>
+            </mat-form-field>
+
+
+            <div class="row-inbox">
+              <mat-form-field appearance="outline">
+                <mat-label>Designation</mat-label>
+                <mat-select formControlName="designation">
+                  <mat-option *ngFor="let designation of designations" [value]="designation">
+                    {{designation}}
+                  </mat-option>
+                </mat-select>
+                <mat-error
+                  *ngIf="employee.get('designation').invalid">{{getNameError(employee.get('designation'))}}</mat-error>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Join Date</mat-label>
+                <input matInput [matDatepicker]="picker" [max]="today" formControlName="joinDate" disabled>
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker disabled="false"></mat-datepicker>
+                <mat-error
+                  *ngIf="employee.get('joinDate').invalid">{{getNameError(employee.get('joinDate'))}}</mat-error>
+              </mat-form-field>
+            </div>
+
+            <h4>Skill</h4>
+            <div formArrayName="skillInfo">
+              <div *ngFor="let skill of employeeSkill(employeeIndex).controls;let skillIndex=index">
+                <div [formGroupName]="skillIndex">
+                  <div class="row-inbox">
+                    <mat-form-field appearance="outline">
+                      <input type="text"
+                             placeholder="Select or enter skill"
+                             matInput
+                             [formControl]="skillCtrl"
+                             [matAutocomplete]="auto"
+                             formControlName="skillName">
+                      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+                        <mat-option *ngFor="let option of filteredSkill | async" [value]="option">
+                          {{option}}
+                        </mat-option>
+                      </mat-autocomplete>
+                      <mat-error
+                        *ngIf="skill.get('skillName').invalid">{{getNameError(skill.get('skillName'))}}</mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field appearance="outline">
+                      <mat-label>Rate yourself</mat-label>
+                      <mat-select formControlName="skillRating">
+                        <mat-option *ngFor="let skillRate of skillRates" [value]="skillRate">
+                          {{skillRate}}
+                        </mat-option>
+                      </mat-select>
+                      <mat-error
+                        *ngIf="skill.get('skillRating').invalid">{{getNameError(skill.get('skillRating'))}}</mat-error>
+                    </mat-form-field>
+
+                    <button mat-icon-button color="warn" matTooltip="Delete"
+                            (click)="removeEmployeeSkill(employeeIndex,skillIndex)">
+                      <mat-icon>delete</mat-icon>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <button mat-flat-button class="float-lg-right" type="button" color="accent"
+                    (click)="addEmployeeSkill(employeeIndex)">Add skill
+            </button>
+
+            <div class="spacer-vertical">
+            </div>
+
+            <h4>Education</h4>
+
+            <div formArrayName="eductionInfo">
+              <div *ngFor="let education of employeeEducation(employeeIndex).controls;let educationIndex=index">
+                <div [formGroupName]="educationIndex">
+                  <mat-form-field appearance="outline">
+                    <mat-label>School name</mat-label>
+                    <input matInput placeholder="School name" formControlName="instituteName" maxlength="50">
+                    <mat-error
+                      *ngIf="education.get('instituteName').invalid">{{getNameError(education.get('instituteName'))}}</mat-error>
+                  </mat-form-field>
+
+                  <div class="row-inbox">
+                    <mat-form-field appearance="outline">
+                      <mat-label>Course name</mat-label>
+                      <input matInput placeholder="Course name" formControlName="courseName" maxlength="25">
+                      <mat-error
+                        *ngIf="education.get('courseName').invalid">{{getNameError(education.get('courseName'))}}</mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field appearance="outline">
+                      <mat-label>Complete Date</mat-label>
+                      <input matInput [matDatepicker]="picker" [max]="today" formControlName="completedYear" disabled>
+                      <mat-hint>MM/DD/YYYY</mat-hint>
+                      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                      <mat-datepicker #picker disabled="false"></mat-datepicker>
+                      <mat-error
+                        *ngIf="education.get('completedYear').invalid">{{getNameError(education.get('completedYear'))}}</mat-error>
+                    </mat-form-field>
+
+                    <button mat-icon-button color="warn" matTooltip="Delete"
+                            (click)="removeEmployeeEducation(employeeIndex,educationIndex)">
+                      <mat-icon>delete</mat-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <button mat-flat-button class="float-lg-right" type="button" color="accent"
+                    (click)="addEmployeeEducation(employeeIndex)">Add education
+            </button>
+          </div>
+          <div class="spacer-vertical">
+          </div>
+
+
+          <button mat-stroked-button type="button" color="warn" (click)="removeEmployee(employeeIndex)">Remove employee
+          </button>
+        </div>
+
+
+      </div>
+
+      <div class="spacer-vertical">
+      </div>
+      <div class="spacer-vertical">
+      </div>
+      <button mat-flat-button type="button" color="accent" (click)="addEmployee()">Add new employee</button>
+
+      <div class="spacer-vertical">
+      </div>
+      <div class="spacer-vertical">
+      </div>
+
+      <button mat-flat-button color="primary" type="button" (click)="onFormSubmit()">Save</button>
+    </div>
+
+
+  </form>
+
+
+</div>
+
+

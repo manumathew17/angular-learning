@@ -1,0 +1,30 @@
+
+.row-inbox {
+  display: flex;
+  gap: 10px;
+}
+
+.form-container {
+  height: 75%;
+  width: 70%;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.content {
+  padding: 50px;
+  width: 70%;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+
+
+
+
+

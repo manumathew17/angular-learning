@@ -1,0 +1,131 @@
+<div class="container">
+
+  <form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+
+    <div mat-card-content class="content">
+      <h1>Add new employee</h1>
+      <h4>Insert the details and save</h4>
+      <h3>Basics</h3>
+      <mat-form-field appearance="outline">
+        <mat-label>Employee name</mat-label>
+        <input matInput placeholder="Company name" formControlName="companyName" maxlength="50">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" placeholder="abc@gmail.com" formControlName="email" maxlength="100">
+        <!--        <mat-error *ngIf="companyForm.controls.email.invalid">{{getEmailErrorMessage()}}</mat-error>-->
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Phone number</mat-label>
+        <input matInput placeholder="Phone number" maxlength="15" formControlName="phoneNumber">
+        <!--        <mat-error *ngIf="companyForm.controls.phoneNumber.invalid">{{getPhoneErrorMessage()}}</mat-error>-->
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" placeholder="abc@gmail.com" formControlName="email">
+      </mat-form-field>
+
+      <div class="row-inbox">
+
+        <mat-form-field appearance="outline">
+          <mat-label>Designation</mat-label>
+          <mat-select formControlName="designation">
+            <mat-option *ngFor="let designation of designations" [value]="designation">
+              {{designation}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Join Date</mat-label>
+          <input matInput [matDatepicker]="picker" [max]="today" formControlName="joinDate" disabled>
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker disabled="false"></mat-datepicker>
+        </mat-form-field>
+      </div>
+
+      <h3>Skills</h3>
+
+      <mat-form-field class="example-chip-list" appearance="outline">
+        <mat-chip-list #chipList aria-label="Select skill">
+          <mat-chip
+            *ngFor="let fruit of selectedSkills"
+            [selectable]="selectable"
+            [removable]="removable"
+            (removed)="remove(fruit)">
+            {{fruit}}
+            <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+          </mat-chip>
+          <input
+            placeholder="New skill"
+            #skillInput
+            [formControl]="skillCtrl"
+            [matAutocomplete]="auto"
+            [matChipInputFor]="chipList"
+            [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+            (matChipInputTokenEnd)="add($event)">
+        </mat-chip-list>
+        <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+          <mat-option *ngFor="let skill of filteredSkills | async" [value]="skill">
+            {{skill}}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+
+      <div *ngIf="selectedSkills.length>0">
+        <h3>Rate yourself</h3>
+      </div>
+      <div *ngFor="let skill of selectedSkills">
+        <div class="row-inbox">
+          <h4>{{skill}}</h4>
+          <mat-radio-group aria-label="Select an option">
+            <mat-radio-button value="1">1</mat-radio-button>
+            <mat-radio-button value="2">2</mat-radio-button>
+            <mat-radio-button value="3">3</mat-radio-button>
+            <mat-radio-button value="4">4</mat-radio-button>
+            <mat-radio-button value="5">5</mat-radio-button>
+          </mat-radio-group>
+        </div>
+
+      </div>
+
+      <h3>Education</h3>
+
+      <mat-form-field appearance="outline">
+        <mat-label>School name</mat-label>
+        <input matInput placeholder="School name" formControlName="schoolName" maxlength="50">
+      </mat-form-field>
+
+      <div class="row-inbox">
+        <mat-form-field appearance="outline">
+          <mat-label>Employee name</mat-label>
+          <input matInput placeholder="Course name" formControlName="courseName" maxlength="25">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Complete Date</mat-label>
+          <input matInput [matDatepicker]="picker" [max]="today"  disabled>
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker disabled="false"></mat-datepicker>
+        </mat-form-field>
+
+      </div>
+
+
+
+
+      <button mat-flat-button color="primary" type="submit">Save</button>
+
+
+    </div>
+  </form>
+
+
+</div>
+
+

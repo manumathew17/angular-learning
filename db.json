@@ -1,0 +1,1563 @@
+{
+  "userDetails": {
+    "userName": "Manu Mathew",
+    "email": "manu@easyecom.io",
+    "dob": "17-01-1998",
+    "address": {
+      "city": "Benglore",
+      "state": "Karnataka",
+      "area": "HSR Layout",
+      "pin": "560010",
+      "country": "India"
+    },
+    "contact": "9606874869"
+  },
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "company": [
+    {
+      "companyName": "ABC corp",
+      "companyAddress": "17th main \nHsr\nbenglore",
+      "email": "abc@abc.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "Manu",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "emp2",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "emp2@gamil.com",
+          "phoneNumber": "234567898765432",
+          "skillInfo": [
+            {
+              "skillName": "Unity",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "w;rgb;wgr",
+              "courseName": "master",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 08:15:05 GMT+0530 (India Standard Time)",
+      "id": 2
+    },
+    {
+      "companyName": "ABC corp",
+      "companyAddress": "17th main \nHsr\nbenglore",
+      "email": "abc@abc.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "Manu",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "emp2",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "emp2@gamil.com",
+          "phoneNumber": "234567898765432",
+          "skillInfo": [
+            {
+              "skillName": "Unity",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "w;rgb;wgr",
+              "courseName": "master",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 08:15:05 GMT+0530 (India Standard Time)",
+      "id": 3
+    },
+    {
+      "companyName": "ABC corp",
+      "companyAddress": "17th main \nHsr\nbenglore",
+      "email": "abc@abc.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "Manu",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "emp2",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "emp2@gamil.com",
+          "phoneNumber": "234567898765432",
+          "skillInfo": [
+            {
+              "skillName": "Unity",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "w;rgb;wgr",
+              "courseName": "master",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 08:15:05 GMT+0530 (India Standard Time)",
+      "id": 6
+    },
+    {
+      "companyName": "ABC corp",
+      "companyAddress": "17th main \nHsr\nbenglore",
+      "email": "abc@abc.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "Manu",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "emp2",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "emp2@gamil.com",
+          "phoneNumber": "234567898765432",
+          "skillInfo": [
+            {
+              "skillName": "Unity",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "w;rgb;wgr",
+              "courseName": "master",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 08:15:05 GMT+0530 (India Standard Time)",
+      "id": 7
+    },
+    {
+      "companyName": "ABC corp",
+      "companyAddress": "17th main \nHsr\nbenglore",
+      "email": "abc@abc.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "Manu",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "emp2",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "emp2@gamil.com",
+          "phoneNumber": "234567898765432",
+          "skillInfo": [
+            {
+              "skillName": "Unity",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "w;rgb;wgr",
+              "courseName": "master",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 08:15:05 GMT+0530 (India Standard Time)",
+      "id": 8
+    },
+    {
+      "companyName": "ABC corp",
+      "companyAddress": "17th main \nHsr\nbenglore",
+      "email": "abc@abc.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "Manu",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "emp2",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "emp2@gamil.com",
+          "phoneNumber": "234567898765432",
+          "skillInfo": [
+            {
+              "skillName": "Unity",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "w;rgb;wgr",
+              "courseName": "master",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 08:15:05 GMT+0530 (India Standard Time)",
+      "id": 10
+    },
+    {
+      "companyName": "ABC corp",
+      "companyAddress": "17th main \nHsr\nbenglore",
+      "email": "abc@abc.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "Manu",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu2",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu3",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu4",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu5",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu6",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu7",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu8",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu9",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "Manu10",
+          "designation": "Developer",
+          "joinDate": "2023-03-31T18:30:00.000Z",
+          "email": "manu@abc.com",
+          "phoneNumber": "123456765432123",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "GIT",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 2
+            },
+            {
+              "skillName": "Python",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "abc engineering",
+              "courseName": "IS",
+              "completedYear": "2020-11-26T18:30:00.000Z"
+            },
+            {
+              "instituteName": "abc school",
+              "courseName": "PU",
+              "completedYear": "2016-06-23T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "emp2",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "emp2@gamil.com",
+          "phoneNumber": "234567898765432",
+          "skillInfo": [
+            {
+              "skillName": "Unity",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "w;rgb;wgr",
+              "courseName": "master",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 08:15:05 GMT+0530 (India Standard Time)",
+      "id": 11
+    },
+    {
+      "companyName": "ergafdb",
+      "companyAddress": "SFDGNzmh\nzdtxjfkgc\nfxtjkg",
+      "email": "manu@gmail.com",
+      "phoneNumber": "123432345432345",
+      "empInfo": [
+        {
+          "empName": "wregsfz",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-02T18:30:00.000Z",
+          "email": "manu@gmail.com",
+          "phoneNumber": "123456787654321",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 4
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 4
+            },
+            {
+              "skillName": "CSS",
+              "skillRating": 4
+            },
+            {
+              "skillName": "Java",
+              "skillRating": 5
+            },
+            {
+              "skillName": "Angular",
+              "skillRating": 4
+            },
+            {
+              "skillName": "AI",
+              "skillRating": 4
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "fgfd",
+              "courseName": "sdfg",
+              "completedYear": "2023-04-09T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 15:36:23 GMT+0530 (India Standard Time)",
+      "id": 12
+    },
+    {
+      "companyName": "zxdf",
+      "companyAddress": "sdf",
+      "email": "asdf@gmail.com",
+      "phoneNumber": "123454323456543",
+      "empInfo": [
+        {
+          "empName": "sdfdghj",
+          "designation": "PM",
+          "joinDate": "2023-04-10T18:30:00.000Z",
+          "email": "abc@gmail.com",
+          "phoneNumber": "123456789876543",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 2
+            },
+            {
+              "skillName": "UI",
+              "skillRating": 5
+            },
+            {
+              "skillName": "Django",
+              "skillRating": 4
+            },
+            {
+              "skillName": "AWS",
+              "skillRating": 3
+            },
+            {
+              "skillName": "C++",
+              "skillRating": 4
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "ttt",
+              "courseName": "ertgh",
+              "completedYear": "2023-04-10T18:30:00.000Z"
+            },
+            {
+              "instituteName": "trthryhr",
+              "courseName": "trhs",
+              "completedYear": "2023-04-02T18:30:00.000Z"
+            },
+            {
+              "instituteName": "asdfa",
+              "courseName": "arsdgf",
+              "completedYear": "2023-04-09T18:30:00.000Z"
+            },
+            {
+              "instituteName": "aetshsdgh",
+              "courseName": "srgar",
+              "completedYear": "2023-04-16T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "rahtdsgf",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-16T18:30:00.000Z",
+          "email": "sas@gmail.com",
+          "phoneNumber": "234567876543234",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 2
+            },
+            {
+              "skillName": "JavaScript",
+              "skillRating": 1
+            }
+          ],
+          "eductionInfo": []
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 18:18:47 GMT+0530 (India Standard Time)",
+      "id": 13
+    },
+    {
+      "companyName": "SZ",
+      "companyAddress": "zx",
+      "email": "sadsf@gmail.com",
+      "phoneNumber": "234567654345676",
+      "empInfo": [
+        {
+          "empName": "sdfg",
+          "designation": "PM",
+          "joinDate": "2023-04-17T18:30:00.000Z",
+          "email": "sadsf@gmail.com",
+          "phoneNumber": "234543454323456",
+          "skillInfo": [
+            {
+              "skillName": "Angular",
+              "skillRating": 1
+            }
+          ],
+          "eductionInfo": []
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 18:24:28 GMT+0530 (India Standard Time)",
+      "id": 14
+    },
+    {
+      "companyName": "dertyui",
+      "companyAddress": "erstydtf",
+      "email": "ares@gmail.com",
+      "phoneNumber": "123456787654345",
+      "empInfo": [
+        {
+          "empName": "erdgcn",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-08T18:30:00.000Z",
+          "email": "ares@gmail.com",
+          "phoneNumber": "234567876543456",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 3
+            },
+            {
+              "skillName": "Angular",
+              "skillRating": 4
+            }
+          ],
+          "eductionInfo": []
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 18:38:11 GMT+0530 (India Standard Time)",
+      "id": 15
+    },
+    {
+      "companyName": "Easyecom",
+      "companyAddress": "cfvgbhn\nfghj\n",
+      "email": "bbv@df.cj",
+      "phoneNumber": "023456789000000",
+      "empInfo": [
+        {
+          "empName": "Manu",
+          "designation": "PM",
+          "joinDate": "2023-04-16T18:30:00.000Z",
+          "email": "fd@df.ch",
+          "phoneNumber": "78989999999",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 4
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "gggg",
+              "courseName": "hffh",
+              "completedYear": "2023-04-16T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 19:44:49 GMT+0530 (India Standard Time)",
+      "id": 16
+    },
+    {
+      "companyName": "ghjkl",
+      "companyAddress": "ygvjhbkj",
+      "email": "jgvhkbjl@gmail.com",
+      "phoneNumber": "123456787654323",
+      "empInfo": [
+        {
+          "empName": "dfgjhk",
+          "designation": "System Admin",
+          "joinDate": "2023-04-10T18:30:00.000Z",
+          "email": "gfhgjh@gmail.com",
+          "phoneNumber": "132435465343324",
+          "skillInfo": [
+            {
+              "skillName": "HTML",
+              "skillRating": 3
+            },
+            {
+              "skillName": "SQL",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "werEWG",
+              "courseName": "AdFFSa",
+              "completedYear": "2023-04-09T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 22:22:01 GMT+0530 (India Standard Time)",
+      "id": 17
+    },
+    {
+      "companyName": "saSDAVFS",
+      "companyAddress": "ASDFG",
+      "email": "ADSFG@gmail.com",
+      "phoneNumber": "123456765432123",
+      "empInfo": [],
+      "createdAt": "Tue Apr 18 2023 22:28:01 GMT+0530 (India Standard Time)",
+      "id": 18
+    },
+    {
+      "companyName": "eas",
+      "companyAddress": "waesrd",
+      "email": "sedrf@gmail.com",
+      "phoneNumber": "123454321234543",
+      "empInfo": [],
+      "createdAt": "Tue Apr 18 2023 22:30:30 GMT+0530 (India Standard Time)",
+      "id": 19
+    },
+    {
+      "companyName": "jk",
+      "companyAddress": "jhkjnl",
+      "email": "hj@gmail.com",
+      "phoneNumber": "234567765432123",
+      "empInfo": [],
+      "createdAt": "Tue Apr 18 2023 22:54:58 GMT+0530 (India Standard Time)",
+      "id": 20
+    },
+    {
+      "companyName": "bvnmn",
+      "companyAddress": "bj nk",
+      "email": "gvbhnj@gmail.com",
+      "phoneNumber": "123456789765432",
+      "empInfo": [],
+      "createdAt": "Tue Apr 18 2023 23:01:32 GMT+0530 (India Standard Time)",
+      "id": 21
+    },
+    {
+      "companyName": "cvbn ",
+      "companyAddress": "v bnmn\nh jbknlm",
+      "email": "hgj@gmail.com",
+      "phoneNumber": "123456765432134",
+      "empInfo": [
+        {
+          "empName": "yvubi",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-09T18:30:00.000Z",
+          "email": "ggvb@gmail.com",
+          "phoneNumber": "123456789876543",
+          "skillInfo": [
+            {
+              "skillName": "Java",
+              "skillRating": 2
+            },
+            {
+              "skillName": "JavaScript",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "hgjbhkn",
+              "courseName": "fg jhbk",
+              "completedYear": "2023-04-16T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 23:08:10 GMT+0530 (India Standard Time)",
+      "id": 22
+    },
+    {
+      "companyName": "ghjbnk",
+      "companyAddress": "gubhnj",
+      "email": "hbjn@gmail.com",
+      "phoneNumber": "123456543234543",
+      "empInfo": [],
+      "createdAt": "Tue Apr 18 2023 23:09:52 GMT+0530 (India Standard Time)",
+      "id": 23
+    },
+    {
+      "companyName": "bjl",
+      "companyAddress": "lj ",
+      "email": "bjlkn@gmail.com",
+      "phoneNumber": "126468464654654",
+      "empInfo": [],
+      "createdAt": "Tue Apr 18 2023 23:44:26 GMT+0530 (India Standard Time)",
+      "id": 24
+    },
+    {
+      "companyName": "fuygiuhoij",
+      "companyAddress": "ivbojkn;m\nivhobjkn;\nkhvbjlkn;",
+      "email": "manu@gmail.com",
+      "phoneNumber": "855418764654654",
+      "empInfo": [
+        {
+          "empName": "manu@gmail.com",
+          "designation": "System Admin",
+          "joinDate": "2023-04-02T18:30:00.000Z",
+          "email": "manu@gmail.com",
+          "phoneNumber": "898978798798798",
+          "skillInfo": [
+            {
+              "skillName": "CSS",
+              "skillRating": 3
+            },
+            {
+              "skillName": "JavaScript",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": []
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 23:45:30 GMT+0530 (India Standard Time)",
+      "id": 25
+    },
+    {
+      "companyName": "kjbl",
+      "companyAddress": "ml ",
+      "email": "manu@gmail.com",
+      "phoneNumber": "95268464654654",
+      "empInfo": [
+        {
+          "empName": "manu@gmail.com",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "manu@gmail.com",
+          "phoneNumber": "579879879879898",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 2
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 4
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "SCSC",
+              "courseName": "ScScs",
+              "completedYear": "2023-04-10T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 23:46:43 GMT+0530 (India Standard Time)",
+      "id": 26
+    },
+    {
+      "companyName": "hcgjvhkbjlkn",
+      "companyAddress": "jvkhbjlkn;",
+      "email": "dlkj@giuho.com",
+      "phoneNumber": "987987987987987",
+      "empInfo": [
+        {
+          "empName": "ADASDAS",
+          "designation": "PM",
+          "joinDate": "2023-04-09T18:30:00.000Z",
+          "email": "KHBKHBV@hnkjb.com",
+          "phoneNumber": "885285208528528",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 2
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 5
+            },
+            {
+              "skillName": "Django",
+              "skillRating": 4
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "uctvhibkjl",
+              "courseName": "ycfgvuhjbkjnl",
+              "completedYear": "2023-04-01T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Tue Apr 18 2023 23:48:49 GMT+0530 (India Standard Time)",
+      "id": 27
+    },
+    {
+      "companyName": "ydtufyguhl",
+      "companyAddress": "ufkglbhkn;",
+      "email": "hljkglhijoiuygcvgfcvbfcvbv@gma.com",
+      "phoneNumber": "234567876543456",
+      "empInfo": [],
+      "createdAt": "Tue Apr 18 2023 23:58:37 GMT+0530 (India Standard Time)",
+      "id": 28
+    },
+    {
+      "companyName": "6ti",
+      "companyAddress": "ydrtufygiuho",
+      "email": "abc@gmail.com",
+      "phoneNumber": "123456543213456",
+      "empInfo": [
+        {
+          "empName": "fhfjgkhl",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-10T18:30:00.000Z",
+          "email": "abc@fy.com",
+          "phoneNumber": "234567654323456",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "gcjvkhghl",
+              "courseName": "fhgjvhkbj",
+              "completedYear": "2023-04-04T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Wed Apr 19 2023 10:33:22 GMT+0530 (India Standard Time)",
+      "id": 29
+    },
+    {
+      "companyName": "jhkbjknl",
+      "companyAddress": "gvhkbjlkn\ngvhkbjlkn;\nkhvbjlkn;",
+      "email": "ihbkjb@gmail.com",
+      "phoneNumber": "123432345654323",
+      "empInfo": [
+        {
+          "empName": "kjblvav",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-11T18:30:00.000Z",
+          "email": "khbkj@gmail.com",
+          "phoneNumber": "123456789876543",
+          "skillInfo": [
+            {
+              "skillName": "Photoshop",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "fcgvhkbjln",
+              "courseName": "yxcuvikb",
+              "completedYear": "2023-04-03T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Wed Apr 19 2023 22:45:01 GMT+0530 (India Standard Time)",
+      "id": 30
+    },
+    {
+      "companyName": "yfuiguoihjp",
+      "companyAddress": "vibln;kbjlkn",
+      "email": "jgvhkbjln@gmail.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "kjkjblj",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-02T18:30:00.000Z",
+          "email": "jvhkb@gmail.com",
+          "phoneNumber": "123456789098765",
+          "skillInfo": [
+            {
+              "skillName": "HTML",
+              "skillRating": 4
+            }
+          ],
+          "eductionInfo": []
+        }
+      ],
+      "createdAt": "Wed Apr 19 2023 23:14:15 GMT+0530 (India Standard Time)",
+      "id": 31
+    },
+    {
+      "companyName": "zdeexghcjvkbln",
+      "companyAddress": "",
+      "email": "gdfxhcgjvkhbjln@gmail.com",
+      "phoneNumber": "123456789098765",
+      "empInfo": [],
+      "createdAt": "Wed Apr 19 2023 23:15:34 GMT+0530 (India Standard Time)",
+      "id": 32
+    },
+    {
+      "companyName": "uyiu",
+      "companyAddress": "hkjl",
+      "email": "hjbkjnlk@gmail.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "dW",
+          "designation": "System Admin",
+          "joinDate": "2023-04-10T18:30:00.000Z",
+          "email": "FA#2@JHBK.COm",
+          "phoneNumber": "123456789098765",
+          "skillInfo": [
+            {
+              "skillName": "Angular",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "AAD",
+              "courseName": "D",
+              "completedYear": "2023-04-03T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Wed Apr 19 2023 23:19:35 GMT+0530 (India Standard Time)",
+      "id": 33
+    }
+  ],
+  "employee": [
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 6
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 9
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 10
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 11
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 12
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 13
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 14
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 15
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 16
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dfg",
+      "email": "abc@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "paypal",
+      "experience": 1,
+      "package": 10,
+      "id": 17
+    },
+    {
+      "firstName": "asdfgh",
+      "lastName": "asdfghj",
+      "email": "sdfgh@gmail.com",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Post-Graduate",
+      "company": "Google",
+      "experience": 11,
+      "package": 10000,
+      "id": 18
+    },
+    {
+      "firstName": "sdfghj",
+      "lastName": "dfghjk",
+      "email": "dsfghjmk@gmail.com",
+      "dob": "2023-04-01T18:30:00.000Z",
+      "gender": "1",
+      "education": "School",
+      "company": "zoho",
+      "experience": 12,
+      "package": 40,
+      "id": 19
+    },
+    {
+      "firstName": "trytuyiu",
+      "lastName": "ghjk",
+      "email": "dfghj@gmail.com",
+      "dob": "2022-05-03T18:30:00.000Z",
+      "gender": "1",
+      "education": "Graduate",
+      "company": "zoho",
+      "experience": 10,
+      "package": 10,
+      "id": 20
+    }
+  ]
+}
