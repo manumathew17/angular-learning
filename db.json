@@ -1439,6 +1439,134 @@
       ],
       "createdAt": "Wed Apr 19 2023 23:37:54 GMT+0530 (India Standard Time)",
       "id": 34
+    },
+    {
+      "companyName": "as",
+      "companyAddress": "sa",
+      "email": "as@gmail.com",
+      "phoneNumber": "2345665435",
+      "empInfo": [
+        {
+          "empName": "df",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "df@gmail.com",
+          "phoneNumber": "1232343234",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 4
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "wer",
+              "courseName": "wer",
+              "completedYear": "2023-04-16T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Thu Apr 20 2023 16:52:35 GMT+0530 (India Standard Time)",
+      "id": 35
+    },
+    {
+      "companyName": "asfd",
+      "companyAddress": "sd",
+      "email": "as@dd.com",
+      "phoneNumber": "1232123212",
+      "empInfo": [
+        {
+          "empName": "ctuv",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-17T18:30:00.000Z",
+          "email": "khb@hh.com",
+          "phoneNumber": "1234323454",
+          "skillInfo": [
+            {
+              "skillName": "JavaScript",
+              "skillRating": 5
+            },
+            {
+              "skillName": "HTML",
+              "skillRating": 4
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "er",
+              "courseName": "r",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Thu Apr 20 2023 16:54:00 GMT+0530 (India Standard Time)",
+      "id": 36
+    },
+    {
+      "companyName": "f",
+      "companyAddress": "af",
+      "email": "af@gmail.com",
+      "phoneNumber": "1234234534",
+      "empInfo": [
+        {
+          "empName": "fgh",
+          "designation": "PM",
+          "joinDate": "2023-04-18T18:30:00.000Z",
+          "email": "afa@g.com",
+          "phoneNumber": "1234345434",
+          "skillInfo": [
+            {
+              "skillName": "wawr",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "a",
+              "courseName": "af",
+              "completedYear": "2023-04-17T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Thu Apr 20 2023 16:54:47 GMT+0530 (India Standard Time)",
+      "id": 37
+    },
+    {
+      "companyName": "Adsfrgethryu",
+      "companyAddress": "afsgsthrytuy",
+      "email": "zsxcvb@f.com",
+      "phoneNumber": "1234565434",
+      "empInfo": [
+        {
+          "empName": "ewrestrd",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-02T18:30:00.000Z",
+          "email": "3q4we5r6tuy@ghj.com",
+          "phoneNumber": "1234565432",
+          "skillInfo": [
+            {
+              "skillName": "Angular",
+              "skillRating": 3
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "asdfsgh",
+              "courseName": "srdtfgf",
+              "completedYear": "2023-04-16T18:30:00.000Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "Thu Apr 20 2023 18:12:38 GMT+0530 (India Standard Time)",
+      "id": 38
     }
   ],
   "employee": [

@@ -26,7 +26,7 @@
 
       <mat-form-field appearance="outline">
         <mat-label>Phone number</mat-label>
-        <input matInput placeholder="Phone number" maxlength="15" formControlName="phoneNumber">
+        <input matInput placeholder="Phone number" maxlength="10" formControlName="phoneNumber">
         <mat-error
           *ngIf="companyForm.controls.phoneNumber.invalid">{{getPhoneErrorMessage(companyForm.controls.phoneNumber)}}</mat-error>
       </mat-form-field>
@@ -52,7 +52,7 @@
 
             <mat-form-field appearance="outline">
               <mat-label>Phone number</mat-label>
-              <input matInput placeholder="Phone number" maxlength="15" formControlName="phoneNumber">
+              <input matInput placeholder="Phone number" maxlength="10" formControlName="phoneNumber">
               <mat-error
                 *ngIf="employee.get('phoneNumber').invalid">{{getPhoneErrorMessage(employee.get('phoneNumber'))}}</mat-error>
             </mat-form-field>
@@ -90,8 +90,9 @@
                       <input type="text"
                              placeholder="Select or enter skill"
                              matInput
-                             [formControl]="skillCtrl"
+                             [formControl]="skill.get('skillName')"
                              [matAutocomplete]="auto"
+                             required
                              formControlName="skillName">
                       <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
                         <mat-option *ngFor="let option of filteredSkill | async" [value]="option">

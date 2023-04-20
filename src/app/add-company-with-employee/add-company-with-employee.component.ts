@@ -1,5 +1,5 @@
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
-import {AbstractControl, FormArray, FormBuilder, FormControl, FormGroup, FormGroupDirective, Validators} from '@angular/forms';
+import {AbstractControl, FormArray, FormBuilder, FormControl, FormGroup, FormGroupDirective, ValidatorFn, Validators} from '@angular/forms';
 import {CompanyService} from '../services/company.service';
 import {MatSnackBar, MatSnackBarConfig} from '@angular/material/snack-bar';
 import {LoadingService} from '../services/ui/loading.service';
@@ -22,9 +22,8 @@ export class AddCompanyWithEmployeeComponent implements OnInit {
   today = new Date();
   visible = true;
   selectable = true;
-  skillCtrl = new FormControl();
+  skillCtrl = new FormControl('', [Validators.required]);
   filteredSkill: Observable<string[]>;
-  selectedSkills: string[] = [];
   allSkills: string[];
 
 
@@ -64,7 +63,7 @@ export class AddCompanyWithEmployeeComponent implements OnInit {
         companyName: ['', [Validators.required, Validators.maxLength(50)]],
         companyAddress: new FormControl(''),
         email: new FormControl('', Validators.compose([Validators.required, Validators.email, Validators.maxLength(100)])),
-        phoneNumber: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.maxLength(15)]],
+        phoneNumber: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.minLength(10), Validators.maxLength(10)]],
         empInfo: this.formBuilder.array([])
       }
     );
@@ -76,9 +75,9 @@ export class AddCompanyWithEmployeeComponent implements OnInit {
       designation: ['', [Validators.required]],
       joinDate: ['', [Validators.required]],
       email: ['', Validators.compose([Validators.required, Validators.email, Validators.maxLength(100)])],
-      phoneNumber: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.maxLength(15)]],
-      skillInfo: this.formBuilder.array([]),
-      eductionInfo: this.formBuilder.array([])
+      phoneNumber: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.minLength(10), Validators.maxLength(10)]],
+      skillInfo: this.formBuilder.array([this.newSkill()]),
+      eductionInfo: this.formBuilder.array([this.newEducation()])
     });
 
   }
