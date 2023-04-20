@@ -1400,6 +1400,45 @@
       ],
       "createdAt": "Wed Apr 19 2023 23:19:35 GMT+0530 (India Standard Time)",
       "id": 33
+    },
+    {
+      "companyName": "ucivyuoblh;",
+      "companyAddress": "jcvkhlbjkn;",
+      "email": "yujcfkvglhkj@gmail.com",
+      "phoneNumber": "123456789876543",
+      "empInfo": [
+        {
+          "empName": "dsfdgfhgkkjl",
+          "designation": "Manager",
+          "joinDate": "2023-04-03T18:30:00.000Z",
+          "email": "fgfhdgkkjl@gmail.com",
+          "phoneNumber": "123456789098765",
+          "skillInfo": [
+            {
+              "skillName": "Angular",
+              "skillRating": 5
+            }
+          ],
+          "eductionInfo": [
+            {
+              "instituteName": "ghdtjfkygulh",
+              "courseName": "tsrydhtjfkghjlk",
+              "completedYear": "2023-04-04T18:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "empName": "tersydtufygukl",
+          "designation": "Team Lead",
+          "joinDate": "2023-04-10T18:30:00.000Z",
+          "email": "tsrydtufyiguoih@gmail.com",
+          "phoneNumber": "123456789098765",
+          "skillInfo": [],
+          "eductionInfo": []
+        }
+      ],
+      "createdAt": "Wed Apr 19 2023 23:37:54 GMT+0530 (India Standard Time)",
+      "id": 34
     }
   ],
   "employee": [
